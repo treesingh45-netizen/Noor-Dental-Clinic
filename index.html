@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noor Dental Clinic — Professional Dental Care in Karachi</title>
+  <meta name="description" content="Noor Dental Clinic offers expert dental care including teeth cleaning, whitening, root canal treatment, and cosmetic dentistry in Karachi. Book your appointment today.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="logo-icon.jpg" alt="Noor Dental Clinic Logo" class="nav-logo-img">
+        Noor Dental
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#appointment" class="nav-cta">Book Appointment</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-shield-heart"></i>
+          Trusted Dental Care in Karachi
+        </div>
+        <h1>Your Smile Deserves the <span>Best Care</span></h1>
+        <p>At Noor Dental Clinic, we provide comprehensive dental solutions with modern technology and a gentle, caring approach for the whole family.</p>
+        <div class="hero-buttons">
+          <a href="tel:+923369970912" class="btn btn-primary" id="heroCallBtn">
+            <i class="fas fa-phone"></i>
+            Call Now
+          </a>
+          <a href="https://wa.me/923369970912?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Noor%20Dental%20Clinic." class="btn btn-whatsapp" id="heroWhatsappBtn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            WhatsApp Us
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <h3>10+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="hero-stat">
+            <h3>5000+</h3>
+            <p>Happy Patients</p>
+          </div>
+          <div class="hero-stat">
+            <h3>7+</h3>
+            <p>Dental Services</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-in">
+          <div class="about-image-wrapper">
+            <img src="doctor.jpg" alt="Dr Ali Hussain Khan - Noor Dental Clinic" loading="lazy">
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text fade-in">
+          <h2>Welcome to Noor Dental Clinic</h2>
+          <p>Led by <strong>Dr Ali Hussain Khan</strong>, Noor Dental Clinic is a trusted name in dental care, dedicated to providing high-quality, affordable, and compassionate dental services to families in Karachi.</p>
+          <p>Our experienced dental professionals use the latest equipment and techniques to ensure that every visit is comfortable, effective, and tailored to your individual needs.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-user-doctor"></i></div>
+              Expert Dentists
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-microscope"></i></div>
+              Modern Equipment
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
+              Gentle Care
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fas fa-clock"></i></div>
+              Flexible Hours
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="services section-padding" id="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Our Services</h2>
+        <p>We offer a comprehensive range of dental services to keep your smile healthy, bright, and beautiful.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in" id="serviceCheckup">
+          <div class="service-img">
+            <img src="service-checkup.png" alt="General Dental Checkup" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>General Dental Checkup</h3>
+            <p>Comprehensive oral examinations to detect issues early and maintain optimal dental health for the entire family.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceCleaning">
+          <div class="service-img">
+            <img src="service-cleaning.png" alt="Teeth Cleaning" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Teeth Cleaning</h3>
+            <p>Professional scaling and polishing to remove plaque, tartar, and stains for a fresher, healthier smile.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceWhitening">
+          <div class="service-img">
+            <img src="service-whitening.png" alt="Teeth Whitening" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Teeth Whitening</h3>
+            <p>Advanced whitening treatments to brighten your smile by several shades safely and effectively.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceFillings">
+          <div class="service-img">
+            <img src="service-fillings.png" alt="Dental Fillings" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Dental Fillings</h3>
+            <p>Tooth-colored composite fillings to restore decayed teeth seamlessly with a natural appearance.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceRootCanal">
+          <div class="service-img">
+            <img src="service-rootcanal.png" alt="Root Canal Treatment" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Root Canal Treatment</h3>
+            <p>Pain-free root canal therapy to save infected teeth and prevent extraction with modern techniques.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceExtraction">
+          <div class="service-img">
+            <img src="service-extraction.png" alt="Tooth Extraction" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Tooth Extraction</h3>
+            <p>Safe and gentle tooth removal procedures with proper anesthesia for a comfortable experience.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceCosmetic">
+          <div class="service-img">
+            <img src="service-cosmetic.png" alt="Cosmetic Dentistry" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Cosmetic Dentistry</h3>
+            <p>Transform your smile with veneers, bonding, and aesthetic treatments for a stunning, confident look.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceImplants">
+          <div class="service-img">
+            <img src="service-implants.png" alt="Dental Implants" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Dental Implants</h3>
+            <p>Permanent tooth replacement with titanium implants that look, feel, and function like natural teeth.</p>
+          </div>
+        </div>
+        <div class="service-card fade-in" id="serviceBraces">
+          <div class="service-img">
+            <img src="service-braces.png" alt="Braces & Orthodontics" loading="lazy">
+          </div>
+          <div class="service-body">
+            <h3>Braces & Orthodontics</h3>
+            <p>Straighten your teeth and correct bite alignment with modern braces and orthodontic treatments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Reviews ===== -->
+  <section class="reviews section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>What Our Patients Say</h2>
+        <p>Don't just take our word for it — hear from some of our satisfied patients.</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card fade-in">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">Excellent experience at Noor Dental Clinic! The doctor was very professional and the clinic is extremely clean and well-equipped. My teeth cleaning was painless and quick.</p>
+          <div class="review-author">
+            <div class="review-avatar">AK</div>
+            <div class="review-author-info">
+              <h4>Ahmed Khan</h4>
+              <p>Teeth Cleaning</p>
+            </div>
+          </div>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">I was very nervous about my root canal treatment but the team was so understanding and gentle. The procedure was completely painless. Highly recommend this clinic!</p>
+          <div class="review-author">
+            <div class="review-avatar">SF</div>
+            <div class="review-author-info">
+              <h4>Sara Fatima</h4>
+              <p>Root Canal Treatment</p>
+            </div>
+          </div>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">Best dental clinic in the area! The doctor explained everything clearly before the procedure. My family has been visiting here for years and we're always satisfied.</p>
+          <div class="review-author">
+            <div class="review-avatar">MR</div>
+            <div class="review-author-info">
+              <h4>Muhammad Rizwan</h4>
+              <p>General Checkup</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Appointment ===== -->
+  <section class="appointment section-padding" id="appointment">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Book an Appointment</h2>
+        <p>Schedule your visit today and take the first step towards a healthier, brighter smile.</p>
+      </div>
+      <div class="appointment-form-wrapper fade-in">
+        <form class="appointment-form" id="appointmentForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="patientName">Full Name</label>
+              <input type="text" id="patientName" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="patientPhone">Phone Number</label>
+              <input type="tel" id="patientPhone" placeholder="e.g. 0300 1234567" required>
+            </div>
+            <div class="form-group">
+              <label for="patientEmail">Email Address</label>
+              <input type="email" id="patientEmail" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="appointmentDate">Preferred Date</label>
+              <input type="date" id="appointmentDate" required>
+            </div>
+            <div class="form-group full-width">
+              <label for="serviceSelect">Select Service</label>
+              <select id="serviceSelect" required>
+                <option value="" disabled selected>Choose a service</option>
+                <option value="general-checkup">General Dental Checkup</option>
+                <option value="teeth-cleaning">Teeth Cleaning</option>
+                <option value="teeth-whitening">Teeth Whitening</option>
+                <option value="dental-fillings">Dental Fillings</option>
+                <option value="root-canal">Root Canal Treatment</option>
+                <option value="tooth-extraction">Tooth Extraction</option>
+                <option value="cosmetic-dentistry">Cosmetic Dentistry</option>
+                <option value="dental-implants">Dental Implants</option>
+                <option value="braces-orthodontics">Braces & Orthodontics</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="patientMessage">Additional Message</label>
+              <textarea id="patientMessage" placeholder="Tell us about your dental concern..." rows="4"></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit" class="btn-submit" id="submitAppointment">
+                <i class="fas fa-calendar-check"></i> &nbsp; Book Appointment
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Get in Touch</h2>
+        <p>Have questions or need directions? We're here to help you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Our Location</h4>
+              <p>Shop No. A-3, Bright Star View,<br>SUPARCO Road, Mosamiat, Karachi.</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Phone Number</h4>
+              <p><a href="tel:+923369970912">0336 9970912</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Address</h4>
+              <p><a href="mailto:alihussain.kh@gmail.com">alihussain.kh@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/923369970912" target="_blank">Chat with us on WhatsApp</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrapper fade-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.5!2d67.105!3d24.885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSUPARCO+Road%2C+Mosamiat%2C+Karachi!5e0!3m2!1sen!2spk!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Noor Dental Clinic Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><img src="logo-icon.jpg" alt="Noor Dental" class="footer-logo-img"> Noor Dental Clinic</h3>
+          <p>Providing trusted, professional dental care to families in Karachi. Your smile is our priority.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#reviews">Patient Reviews</a></li>
+            <li><a href="#appointment">Book Appointment</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Clinic Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Monday – Friday</span><span>10:00 AM – 9:00 PM</span></li>
+            <li><span>Saturday</span><span>10:00 AM – 6:00 PM</span></li>
+            <li><span>Sunday</span><span>By Appointment</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Noor Dental Clinic. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/noordentalclinicpk" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/noordental6/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/923369970912" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/923369970912?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Noor%20Dental%20Clinic." class="whatsapp-float" id="whatsappFloat" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- ===== JavaScript ===== -->
+  <script>
+    // Mobile Navigation
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const mobileOverlay = document.getElementById('mobileOverlay');
+
+    function toggleMenu() {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      mobileOverlay.classList.toggle('active');
+      document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+    }
+
+    hamburger.addEventListener('click', toggleMenu);
+    mobileOverlay.addEventListener('click', toggleMenu);
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (navLinks.classList.contains('active')) toggleMenu();
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+
+      const scrollTop = document.getElementById('scrollTop');
+      scrollTop.classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // Scroll to top
+    document.getElementById('scrollTop').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Fade-in on scroll (Intersection Observer)
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    fadeElements.forEach(el => observer.observe(el));
+
+    // Hero floating particles
+    const particlesContainer = document.getElementById('heroParticles');
+    for (let i = 0; i < 20; i++) {
+      const particle = document.createElement('span');
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.width = particle.style.height = (Math.random() * 6 + 3) + 'px';
+      particle.style.animationDuration = (Math.random() * 15 + 10) + 's';
+      particle.style.animationDelay = (Math.random() * 10) + 's';
+      particlesContainer.appendChild(particle);
+    }
+
+    // Appointment form
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('patientName').value;
+      const phone = document.getElementById('patientPhone').value;
+      const email = document.getElementById('patientEmail').value;
+      const date = document.getElementById('appointmentDate').value;
+      const service = document.getElementById('serviceSelect').value;
+      const message = document.getElementById('patientMessage').value;
+
+      const whatsappMsg = `Hello, I'd like to book an appointment at Noor Dental Clinic.%0A%0A` +
+        `*Name:* ${name}%0A` +
+        `*Phone:* ${phone}%0A` +
+        `*Email:* ${email}%0A` +
+        `*Date:* ${date}%0A` +
+        `*Service:* ${service}%0A` +
+        `*Message:* ${message || 'N/A'}`;
+
+      window.open(`https://wa.me/923369970912?text=${whatsappMsg}`, '_blank');
+
+      const btn = document.getElementById('submitAppointment');
+      btn.innerHTML = '<i class="fas fa-check"></i> &nbsp; Sent to WhatsApp!';
+      btn.style.background = '#25D366';
+      btn.style.color = '#fff';
+
+      setTimeout(() => {
+        btn.innerHTML = '<i class="fas fa-calendar-check"></i> &nbsp; Book Appointment';
+        btn.style.background = '';
+        btn.style.color = '';
+        this.reset();
+      }, 3000);
+    });
+
+    // Set min date for appointment
+    const dateInput = document.getElementById('appointmentDate');
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('min', today);
+  </script>
+
+</body>
+</html>
